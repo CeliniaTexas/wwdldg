@@ -1,0 +1,4 @@
+extern unique_ptr<CompUnitAST> root;
+extern int yyparse();
+extern void initFileName(char *);
+extern FILE *yyin;
